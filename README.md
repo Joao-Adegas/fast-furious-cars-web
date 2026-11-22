@@ -1,12 +1,27 @@
-# React + Vite
+# Fast & Furious Cars Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web interface to browse and manage cars from the Fast & Furious movies. It consumes the [Fast & Furious Cars API](https://github.com/Joao-Adegas/fast-furious-cars-api).
 
-Currently, two official plugins are available:
+## Tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- CONFIRM: framework and libraries used in this frontend -->
 
-## Expanding the ESLint configuration
+## Getting started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js and npm
+- [fast-furious-cars-api](https://github.com/Joao-Adegas/fast-furious-cars-api) running locally, with its database set up
+
+### Run
+
+```bash
+npm i
+npm run dev
+```
+
+Open the link shown in the terminal to access the app in your browser.
+
+## Author
+
+João Pedro dos Santos Adegas — [@Joao-Adegas](https://github.com/Joao-Adegas)
